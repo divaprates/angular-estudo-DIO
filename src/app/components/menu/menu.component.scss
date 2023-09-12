@@ -1,0 +1,34 @@
+.my-menu {
+    list-style: none;
+    // border: 1px solid #c0c0c0;
+    // float: left;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    // background-color: #333;
+}
+
+.my-menu li {
+    position: relative;
+    float: left;
+    // border-right: 1px solid #c0c0c0;
+}
+
+.my-menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.my-menu li a:hover {
+    // background: #333;
+    color: #e2e0e0;
+    // -moz-box-shadow: 0 3px 10px 0 #CCC;
+    // -webkit-box-shadow: 0 3px 10px 0 #ccc;
+    text-shadow: 0px 0px 5px #e2e0e0;
+}
+
+ul {
+    margin: 0.6%;
+}

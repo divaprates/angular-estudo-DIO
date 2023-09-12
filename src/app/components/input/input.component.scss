@@ -1,0 +1,25 @@
+.myInput {
+    padding: 5px;
+    font-size: 16px;
+    border-width: 0px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #231b14;
+    border-style: solid;
+    border-radius: 0px;
+    box-shadow: 1px 1px 6px rgba(66,66,66,.42);
+    // text-shadow: -46px -20px 0px rgba(35,27,20,.13);
+}
+
+.myInput:focus {
+    outline:none;
+}
+
+label {
+    display: block;
+    color: #231b14;
+    font-size: 14px;
+    margin-bottom: 1.6px;
+    margin-left: 0;
+    // text-shadow: -46px -20px 0px rgba(35,27,20,.13);
+}

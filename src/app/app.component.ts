@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-estudo-dio';
+  textClick: string = 'clique aqui';
+  textClear: string = 'limpar';
+
 }

@@ -1,0 +1,11 @@
+<!-- <label for="input">{{ textLabel }}</label>
+<input type="text" #input [value]="placeholder" (input)="placeholder = $any($event.target).value" class="myInput"/>
+<p>{{ placeholder }}</p> -->
+
+<label for="input">{{ textLabel }}</label>
+<input #input
+    type="text"
+    [(ngModel)]="placeholder"
+    class="myInput"
+/>
+<p>{{ placeholder }}</p>

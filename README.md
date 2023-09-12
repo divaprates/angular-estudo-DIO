@@ -1,5 +1,33 @@
-# AngularEstudoDio
+# Angular estudo - DIO
+### Estudo
 
+##
+
+| Angular    | Ganhando produtividade com Angular               |
+|------------|--------------------------------------------------|
+| Com        | Felipe Silva Aguiar                              |
+| Bootcamp   | Santander Bootcamp 2023 - Fullstack Java+Angular |
+| Plataforma | DIO                                              |
+
+<br>
+
+##
+
+Criação de um site de uma cafeteria para estudar os conceitos de Angular.
+
+##
+### Tecnologias utilizadas:
+
+<div>
+   <img align="center" alt="diva-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+   <img align="center" alt="diva-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+   <img align="center" alt="diva-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+   <img align="center" alt="Bootstrap" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+   <img align="center" alt="Bootstrap" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+   <img align="center" alt="diva-Angular" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg">
+</div>
+
+##
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
 
 ## Development server
