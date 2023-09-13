@@ -5,9 +5,10 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent{
   title = 'angular-estudo-dio';
   textClick: string = 'clique aqui';
   textClear: string = 'limpar';
+
 
 }

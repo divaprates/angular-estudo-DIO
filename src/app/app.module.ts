@@ -9,6 +9,7 @@ import { InputComponent } from './components/input/input.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { CardComponent } from './components/card/card.component';
+import { CheckComponent } from './components/check/check.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CardComponent } from './components/card/card.component';
     InputComponent,
     HeaderComponent,
     MenuComponent,
-    CardComponent
+    CardComponent,
+    CheckComponent
   ],
   imports: [
     BrowserModule,
