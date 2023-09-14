@@ -15,6 +15,8 @@ export class CheckComponent
               AfterViewInit
 {
 
+  public quantidade: number = 0;
+
 
   constructor() {
     console.log('Construtor');
@@ -42,6 +44,13 @@ export class CheckComponent
 
   ngAfterViewInit(): void {
     console.log('ngAfterViewInit');
+  }
+
+  adicionar() {
+    this.quantidade++;
+  }
+  decrementar() {
+    this.quantidade--;
   }
 
 }
