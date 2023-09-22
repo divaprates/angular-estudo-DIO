@@ -1,10 +1,25 @@
-<div class="mouse-efect card" style="width: 18rem;">
-    <img class="card-img-top" src="../../../assets/cards/cafe1.png" alt="Card image cap">
+<div class="mouse-efect card my-card" >
+
+    <div class="d-flex flex-row justify-content-end favorito">
+        <img width="25px"
+            src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f90e.png"
+            (click)="favoritar()"
+            *ngIf="favorito; else normal"/>
+        <ng-template #normal>
+            <img width="25px"
+                src="https://cdn-0.emojis.wiki/emoji-pics/google/yellow-heart-google.png"
+                (click)="favoritar()"
+                [ngStyle]="{'opacity': '0.5'}" />
+        </ng-template>
+    </div>
+
+    <!-- <img class="card-img-top" src="../../../assets/cards/cafe1.png" alt="Card image cap"> -->
+    <img class="card-img-top" [src]="expresso.imagem" alt="café">
     <div class="card-body">
-        <h5 class="card-title">{{ title }}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">R$ 10,15</h6>
+        <h5 class="card-title">{{ expresso.titulo }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{ expresso.valor }}</h6>
         <p class="card-text">
-            Café preto
+            {{ expresso.descricao }}
         </p>
         <app-button [text]="'Quero experimentar'"></app-button>
     </div>
