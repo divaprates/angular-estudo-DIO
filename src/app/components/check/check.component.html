@@ -2,3 +2,18 @@
 <button (click)="decrementar()"> < </button>
 {{ quantidade }}
 <button (click)="adicionar()"> > </button>
+
+<div [ngSwitch]="switch">
+    <div *ngSwitchCase="'one'">
+        one
+    </div>
+    <div *ngSwitchCase="'two'">
+        two
+    </div>
+    <div *ngSwitchCase="'three'">
+        three
+    </div>
+    <div *ngSwitchDefault>
+        ops
+    </div>
+</div>

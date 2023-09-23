@@ -23,7 +23,7 @@ export class MenuComponent implements OnInit {
     this.items = [
       {href: '#', text: 'Home'},
       {href: '#', text: 'Cardápio'},
-      {href: '#', text: 'O que fazemos'},
+      {href: '#', text: 'Quem somos'},
       {href: '#', text: 'Contato'},
     ]
   }
