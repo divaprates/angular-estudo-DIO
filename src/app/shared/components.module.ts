@@ -24,6 +24,7 @@ import { MenuComponent } from './menu/menu.component';
     FormsModule
   ],
   exports: [
+    ButtonComponent,
     CardComponent,
     MenuComponent,
     HeaderComponent,
