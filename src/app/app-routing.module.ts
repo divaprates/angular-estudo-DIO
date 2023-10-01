@@ -1,7 +1,32 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CardapioComponent } from './pages/cardapio/cardapio.component';
+import { ContatoComponent } from './pages/contato/contato.component';
+import { QuemSomosComponent } from './pages/quem-somos/quem-somos.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path: '',
+    component: CardapioComponent,
+    pathMatch: 'full'
+  },
+  {
+    path: 'cardapio',
+    component: CardapioComponent
+  },
+  {
+    path: 'quem-somos',
+    component: QuemSomosComponent
+  },
+  {
+    path: '**',
+    redirectTo: ''
+  },
+  {
+    path: 'contato',
+    component: ContatoComponent
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

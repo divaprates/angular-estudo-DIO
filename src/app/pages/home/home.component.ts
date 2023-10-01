@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { quemSomos } from '../util/textoUtil';
 
 @Component({
   selector: 'app-home',
@@ -7,8 +6,6 @@ import { quemSomos } from '../util/textoUtil';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
-  public quemSomos?: string[] = quemSomos;
 
   ngOnInit(): void {
     throw new Error('Method not implemented.');
