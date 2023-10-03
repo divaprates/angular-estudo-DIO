@@ -13,7 +13,7 @@
 
 ##
 
-Criação de um site de uma cafeteria para estudar os conceitos de Angular.
+Criação de um site de uma cafeteria para estudar os conceitos de Angular apresentados no bootcamp.
 
 ##
 ### Tecnologias utilizadas:

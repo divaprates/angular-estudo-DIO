@@ -19,12 +19,12 @@ const routes: Routes = [
     component: QuemSomosComponent
   },
   {
-    path: '**',
-    redirectTo: ''
-  },
-  {
     path: 'contato',
     component: ContatoComponent
+  },
+  {
+    path: '**',
+    redirectTo: ''
   },
 ];
 
