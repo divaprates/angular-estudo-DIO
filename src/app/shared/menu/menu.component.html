@@ -1,7 +1,12 @@
 <nav>
     <ul class="my-menu">
         <li *ngFor="let item of items">
-            <a [routerLink]="item.href">{{ item.text }}</a>
+            <a
+                [routerLink]="item.href"
+                [routerLinkActive]="['activated']"
+                [routerLinkActiveOptions]="{exact: true}" >
+                    {{ item.text }}
+            </a>
         </li>
     </ul>
 </nav>
