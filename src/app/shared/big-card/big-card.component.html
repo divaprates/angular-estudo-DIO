@@ -1,0 +1,37 @@
+<div class="my-card" >
+
+    <div class="row">
+        
+        <div class="card-body col-6">
+            <div class="row">
+                <div class="col-6">
+                    <h5 class="card-title">{{ expresso.titulo }}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ expresso.valor }}</h6>
+                </div>
+                <div class="col-6">
+                    <div class="d-flex flex-row justify-content-end favorito">
+                        <img width="25px"
+                            src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f90e.png"
+                            (click)="favoritar()"
+                            *ngIf="favorito; else normal"/>
+                        <ng-template #normal>
+                            <img width="25px"
+                                src="https://cdn-0.emojis.wiki/emoji-pics/google/yellow-heart-google.png"
+                                (click)="favoritar()"
+                                [ngStyle]="{'opacity': '0.5'}" />
+                        </ng-template>
+                    </div>
+                </div>
+            </div>
+
+            <p class="card-text">
+                {{ expresso.descricao }}
+            </p>
+            <app-button [text]="'Quero experimentar'"></app-button>
+        </div>
+
+        <div class="col-6">
+            <img class="card-img-top img_card-coffee" [src]="expresso.imagem" alt="detalhes" >
+        </div>
+    </div>
+</div>

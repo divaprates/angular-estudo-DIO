@@ -12,10 +12,6 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'cardapio',
-    component: CardapioComponent
-  },
-  {
     path: 'quem-somos',
     component: QuemSomosComponent
   },

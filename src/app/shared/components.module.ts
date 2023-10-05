@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from '../app-routing.module';
+import { BigCardComponent } from './big-card/big-card.component';
 import { ButtonComponent } from './button/button.components';
 import { CardComponent } from './card/card.component';
 import { CheckComponent } from './check/check.component';
@@ -19,6 +20,7 @@ import { MenuComponent } from './menu/menu.component';
     MenuComponent,
     CardComponent,
     CheckComponent,
+    BigCardComponent
   ],
   imports: [
     CommonModule,
@@ -30,6 +32,7 @@ import { MenuComponent } from './menu/menu.component';
     CardComponent,
     MenuComponent,
     HeaderComponent,
+    BigCardComponent
   ]
 })
 export class ComponentsModule { }

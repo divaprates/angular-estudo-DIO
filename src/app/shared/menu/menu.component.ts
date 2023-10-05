@@ -21,8 +21,7 @@ export class MenuComponent implements OnInit {
 
   carregarMenu () {
     this.items = [
-      {href: '/', text: 'Home'},
-      {href: '/cardapio', text: 'Cardápio'},
+      {href: '/', text: 'Cardápio'},
       {href: '/quem-somos', text: 'Quem somos'},
       {href: '/contato', text: 'Contato'},
     ]
