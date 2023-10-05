@@ -13,9 +13,7 @@ export class CardComponent implements OnInit{
 
   favorito: boolean = false;
   
-  ngOnInit(): void {
-    console.log(this.expresso)
-  }
+  ngOnInit(): void {}
 
   favoritar() {
     this.favorito ? this.favorito = false : this.favorito = true;

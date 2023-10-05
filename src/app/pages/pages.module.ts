@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { QuemSomosComponent } from './quem-somos/quem-somos.component';
 import { BoxDescriptionComponent } from './quem-somos/box-description/box-description.component';
 import { ContatoComponent } from './contato/contato.component';
+import { DetalhesComponent } from './detalhes/detalhes.component';
 
 
 
@@ -16,6 +17,7 @@ import { ContatoComponent } from './contato/contato.component';
     QuemSomosComponent,
     BoxDescriptionComponent,
     ContatoComponent,
+    DetalhesComponent,
   ],
   imports: [
     CommonModule,

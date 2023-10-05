@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CardapioComponent } from './pages/cardapio/cardapio.component';
 import { ContatoComponent } from './pages/contato/contato.component';
+import { DetalhesComponent } from './pages/detalhes/detalhes.component';
 import { QuemSomosComponent } from './pages/quem-somos/quem-somos.component';
 
 const routes: Routes = [
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'contato',
     component: ContatoComponent
+  },
+  {
+    path: 'detalhes/:id',
+    component: DetalhesComponent
   },
   {
     path: '**',

@@ -13,8 +13,7 @@
         </ng-template>
     </div>
 
-    <!-- <img class="card-img-top" src="../../../assets/cards/cafe1.png" alt="Card image cap"> -->
-    <img class="card-img-top" [src]="expresso.imagem" alt="café">
+    <img class="card-img-top img_card-coffee" [src]="expresso.imagem" alt="detalhes" [routerLink]="['detalhes', expresso.id]">
     <div class="card-body">
         <h5 class="card-title">{{ expresso.titulo }}</h5>
         <h6 class="card-subtitle mb-2 text-muted">{{ expresso.valor }}</h6>
